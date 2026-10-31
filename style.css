@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #080808;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 6%;
+    background: #111;
+}
+
+header h1 {
+    color: #e50914;
+    font-size: 32px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+.hero {
+    min-height: 450px;
+    padding: 120px 6%;
+    background: linear-gradient(90deg, #080808, #252525);
+}
+
+.hero h2 {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    color: #ccc;
+    margin-bottom: 25px;
+}
+
+button {
+    background: #e50914;
+    color: white;
+    border: none;
+    padding: 14px 28px;
+    border-radius: 5px;
+    cursor: pointer;
+}
